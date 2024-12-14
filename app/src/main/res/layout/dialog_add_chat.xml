@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:padding="16dp">
+    <EditText
+        android:id="@+id/chat_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя чата" />
+    <EditText
+        android:id="@+id/chat_users_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пользователи (через запятую)" />
+    </LinearLayout>

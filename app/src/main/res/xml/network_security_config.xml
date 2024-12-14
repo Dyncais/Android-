@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Укажи домен и разреши незашифрованное соединение -->
+        <domain includeSubdomains="true">193.124.33.25</domain>
+    </domain-config>
+</network-security-config>
